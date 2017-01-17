@@ -26,3 +26,5 @@ for j in arr:
     print('Интересы:', ', '.join(j.interest))
     print('Номер телефона:', ' '.join(j.telnum))
     print()
+
+file.close()
